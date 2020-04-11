@@ -18,7 +18,7 @@ define(["Tone/core/Tone", "util/MathUtils", "mic/Amplitude"], function (Tone, Ma
 
 	var Player = function(bufferDuration){
 
-		/** 
+		/**
 		 *  @private
 		 *  @type {ScriptProcessorNode}
 		 */
