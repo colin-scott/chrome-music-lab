@@ -52,7 +52,7 @@ module.exports = function(maxRecordTime, container) {
 		// _self.precisionSlider 	= $("#precisionSlider");
 		_self.waveDisplay 	= $('<div>').prop('id', 'WaveDisplay').appendTo(container);
 		_self.recordButton 	= $('<div>').prop('id', 'RecordButton').appendTo(_self.waveDisplay);
-		_self.recordButton.addClass("icon-svg_record");
+		//_self.recordButton.addClass("png_micpuppy");
 
 		// _self.speedSliderContainer = $("<div>").prop("id", "SliderContainer").appendTo(container);
 
@@ -70,8 +70,8 @@ module.exports = function(maxRecordTime, container) {
 
 	_self.disableRecording = function(callback) {
 		_self.recordButton.addClass('disabled');
-		_self.recordButton.removeClass("icon-svg_record");
-		_self.recordButton.addClass("icon-svg_no_record");
+		//_self.recordButton.removeClass("icon-svg_record");
+		//_self.recordButton.addClass("icon-svg_no_record");
 		_self.recordButton.on("click", function(e){
 			e.preventDefault();
 			callback();
