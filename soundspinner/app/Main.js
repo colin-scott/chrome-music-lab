@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-require(["domready", "interface/UserInterface", "main.scss", "mic/Waveform", "mic/Recorder", "mic/Player", 
-	"mic/Loader", "StartAudioContext", "Tone/core/Tone", "Tone/source/Microphone"], 
+require(["domready", "interface/UserInterface", "main.scss", "mic/Waveform", "mic/Recorder", "mic/Player",
+	"mic/Loader", "StartAudioContext", "Tone/core/Tone", "Tone/source/Microphone"],
 	function(domReady, UserInterface, mainStyle, Waveform, Recorder, Player, Loader, StartAudioContext, Tone, Microphone){
 
 	domReady(function(){
